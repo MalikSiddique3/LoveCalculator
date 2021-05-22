@@ -1,0 +1,63 @@
+body{
+    background: url(img/download.jfif) center center no-repeat;
+    background-size: cover;
+    color: 		#FF1493;
+}
+#container
+{
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background-image: url(img/paper-pattern.jpg);
+    box-shadow: 0 10px 15px -8px #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+    border-bottom: solid 1px red;
+    padding: 20px;
+}
+#Form  input{
+    margin: 20px;
+    
+}
+select
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#pcent:before{
+    content: "Love percentage";
+    font-size: 14px;
+    color: #FFB6C1;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+input[type = "button"]
+{
+    font-size: 28px;
+    background: #FFB6C1;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    width: 80%;
+    border-bottom: solid 4px #FF1493;
+    text-transform: uppercase;
+}
+input[type = "button"]:hover{
+    cursor: pointer;
+    background: red;
+}
+input[type = "button"]:active{
+    position: relative;
+    top: 1px;
+}
+#percent{
+    font-size: 18px;
+}
